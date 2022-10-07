@@ -14,7 +14,7 @@ export default function Login({navigation}) {
         <Input  mt="20%" w="80%" variant="underlined" placeholder="Enter Email" />
         <Text top="20px" marginRight="65%" bold fontSize="sm" color="#0c4a6e">Password</Text>
         <Input w="80%" variant="underlined" placeholder="Enter Password" />
-        <Button mt="5%" w="50%" h="10%" backgroundColor="#0284c7" borderRadius="20" size="sm"onPress={()=>{navigation.navigate("Home")}}>Login</Button>
+        <Button mt="5%" w="50%" h="10%" backgroundColor="#0284c7" borderRadius="20" size="xl"onPress={()=>{navigation.navigate("Home")}}>Login</Button>
         
            </VStack>
            <Text top="4px" left="77px" bold fontSize="xs">Don't have an account ?</Text>
