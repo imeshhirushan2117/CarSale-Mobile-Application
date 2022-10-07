@@ -8,19 +8,19 @@ export default function Login({navigation}) {
     <NativeBaseProvider>
       
         <VStack space={4} alignItems="center" mt="20%">
-        <Text bold fontSize="3xl" color="indigo.600">Welcome !</Text>
+        <Text italic fontSize="3xl" color="#0284c7">Vehicle Sale System !</Text>
 
-        <Text top="95px" marginRight="70%" bold fontSize="sm" color="indigo.400">Email</Text>
+        <Text top="95px" marginRight="70%" bold fontSize="sm" color="#0c4a6e">Email</Text>
         <Input  mt="20%" w="80%" variant="underlined" placeholder="Enter Email" />
-        <Text top="20px" marginRight="65%" bold fontSize="sm" color="indigo.400">Password</Text>
+        <Text top="20px" marginRight="65%" bold fontSize="sm" color="#0c4a6e">Password</Text>
         <Input w="80%" variant="underlined" placeholder="Enter Password" />
-        <Button mt="5%" w="50%" h="10%" backgroundColor="indigo.600" borderRadius="20" size="sm"onPress={()=>{navigation.navigate("Home")}}>Login</Button>
+        <Button mt="5%" w="50%" h="10%" backgroundColor="#0284c7" borderRadius="20" size="sm"onPress={()=>{navigation.navigate("Home")}}>Login</Button>
         
            </VStack>
            <Text top="4px" left="77px" bold fontSize="xs">Don't have an account ?</Text>
           
            <Link href="" bottom="16px" left="218px" bold fontSize="xs" sExternal _text={{
-        color: "indigo.600"}} onPress={()=>{navigation.navigate("Register")}}>
+        color: "#0284c7"}} onPress={()=>{navigation.navigate("Register")}}>
            Register Now!
       </Link>
       
